@@ -43,3 +43,4 @@ Map.addLayer(image.clip(geometry), rgbVis, 'Image');
 Map.addLayer(mndwi.clip(geometry), ndwiVis, 'MNDWI');
 Map.addLayer(savi.clip(geometry), ndviVis, 'SAVI');
 Map.addLayer(ndvi.clip(geometry), ndviVis, 'NDVI');
+Map.centerObject(geometry);
